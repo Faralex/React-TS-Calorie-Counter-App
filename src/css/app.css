@@ -1,0 +1,212 @@
+@import "normalize.css";
+
+html {
+  font-size: 20px;
+}
+
+body {
+  background-color: rgb(217, 215, 212);
+  padding: 0;
+  margin: 0;
+}
+
+.calories {
+  padding: 20px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid black;
+}
+
+.calories:last-child {
+  border-bottom: none;
+  padding-bottom: 10px;
+}
+
+.calories__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.calories-list {
+  border-right: 10px solid black;
+  min-height: 100vh;
+  width: 50%;
+}
+
+.calories-list__add-day-btn-container {
+  padding-top: 40px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.calories__title {
+  margin: 0;
+  font-size: 30px;
+  margin-right: 30px;
+  color: rgb(155, 107, 73);
+}
+
+.btn {
+  background: none;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+.btn--primary {
+  color: white;
+  background-color: rgb(54, 134, 191);
+}
+
+.btn--primary:hover {
+  background-color: rgb(34, 92, 134);
+}
+
+.btn--danger {
+  color: white;
+  background-color: rgb(193, 29, 29);
+}
+
+.btn--danger:hover {
+  background-color: rgb(154, 47, 28);
+}
+
+.mr-5 {
+  margin-right: 5px;
+}
+
+.exercise-title {
+  margin-top: 45px;
+}
+
+.food-title,
+.exercise-title {
+  text-align: center;
+  color: rgb(155, 107, 73);
+}
+
+.food-time {
+  font-size: 30px;
+  margin: 10px 0 10px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(155, 107, 73);
+}
+
+.food-name,
+.exercise-name {
+  margin-left: 5px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: inline-block;
+  width: 337px;
+  color: rgb(155, 107, 73);
+}
+
+.food-total,
+.total-burned {
+  margin-top: 15px;
+  float: right;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+    sans-serif;
+  color: rgb(155, 107, 73);
+}
+
+.food-calories,
+.exercise-calories {
+  float: right;
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: rgb(155, 107, 73);
+}
+
+.exercise-info {
+  margin-bottom: 10px;
+}
+
+.food-info,
+.exercise-info {
+  border: 5px solid rgb(255, 253, 253);
+  border-radius: 5px;
+  padding: 15px 25px 15px 25px;
+}
+
+.calorie-edit {
+  padding: 30px;
+  padding-top: 10px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 50%;
+  max-height: 100%;
+  overflow-y: auto;
+  box-sizing: border-box;
+}
+
+.calorie__edit-remove-button-container {
+  text-align: end;
+}
+
+.calorie-edit__remove-button {
+  padding: 0;
+  background: none;
+  outline: none;
+  border: none;
+  font-size: 1.5rem;
+}
+
+.calorie-edit__details {
+  display: grid;
+  grid-template-columns: auto 2fr;
+  row-gap: 10px;
+  column-gap: 40px;
+}
+
+.calorie-edit__input {
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: inherit;
+  padding: 5px 10px;
+  outline: none;
+  width: 50%;
+}
+
+.calorie-edit__input-date {
+  width: 100px;
+}
+
+.calorie-edit__input-ckal {
+  width: 50px;
+}
+
+.calorie-edit__exercises {
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: inherit;
+  padding: 5px 10px;
+  outline: none;
+  margin-right: 10px;
+}
+
+.calories-edit__ingredient-grid {
+  display: grid;
+  gap: 10px;
+  width: 500px;
+  text-align: center;
+  grid-template-columns: repeat(3, auto);
+  margin: auto;
+}
+
+.calories-edit__add-ingredient {
+  margin-top: 40px;
+  text-align: center;
+}
+
+input::-webkit-inner-spin-button {
+  display: none;
+}
