@@ -101,12 +101,12 @@ const sampleCalories = [
       {
         id: "1",
         name: "10000 steps",
-        caloriesBurned: 350,
+        caloriesBurned: 339,
       },
       {
         id: "2",
         name: "200 push ups",
-        caloriesBurned: 150,
+        caloriesBurned: 143,
       },
     ],
   },
