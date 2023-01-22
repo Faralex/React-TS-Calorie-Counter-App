@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/React-TS-Calorie-Counter-App/static/css/main.44ca16f5.css",
+    "main.js": "/React-TS-Calorie-Counter-App/static/js/main.e9d7b355.js",
+    "index.html": "/React-TS-Calorie-Counter-App/index.html",
+    "main.44ca16f5.css.map": "/React-TS-Calorie-Counter-App/static/css/main.44ca16f5.css.map",
+    "main.e9d7b355.js.map": "/React-TS-Calorie-Counter-App/static/js/main.e9d7b355.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44ca16f5.css",
+    "static/js/main.e9d7b355.js"
+  ]
+}
